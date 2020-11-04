@@ -1,0 +1,37 @@
+@charset "utf-8";
+h3 {
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+}
+h2{
+    background-color: royalblue;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+p {
+    text-align: justify;
+}
+h1{
+    color: royalblue;
+    text-shadow: 1px 1px 2px gray;
+}
+h4{
+    color: royalblue;
+    text-decoration: overline;
+}
+strong{
+    color: royalblue;
+}
+body {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+}
+html {
+    background-color: black;
+}
+a.nav {
+    color: white;
+    text-decoration: none;
+}
