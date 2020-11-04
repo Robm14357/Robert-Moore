@@ -1,0 +1,31 @@
+@charset "utf-8";
+html {
+   background-image: url(Space.png);
+} 
+h2 {
+    color: white;
+    text-align: center;
+}
+p.normal {
+    color:cyan;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px white;
+}
+p.writers {
+    color: purple;
+    text-align: center;
+}
+p.end {
+    color: cyan;
+    text-align: center;
+}
+a.write {
+    color: white;
+    text-decoration: none;
+}
+a.rick_roll {
+    color: white;
+    text-decoration: underline;
+}
+
+    
