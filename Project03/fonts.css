@@ -1,0 +1,34 @@
+@charset "utf-8";
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+p.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: white;
+    width: 800px;
+    height: 550px;
+    margin: auto;
+}
+html {
+    background-color: darkgray;
+}
+p.color {
+    color: blue;
+}
+p.middle {
+    text-align: center;
+}
+p.Right {
+    text-align: Right;
+}
+p.shadow {
+    text-shadow: grey 2px 2px 2px;
+}
+span.big {
+    font-size: 25px;
+}
+span.small {
+    font-size: 10px;
+}
