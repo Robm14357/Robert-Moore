@@ -1,0 +1,27 @@
+@charset "utf-8";
+body {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+}
+html {
+    background-color: black;
+}
+.Arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.times {
+    font-family: Times;
+}
+.timesnewroman {
+    font-family: 'Times New Roman', Times, serif;
+}
+li {
+    font-weight: bold;
+}
+.Couriernew {
+    font-family: 'Courier New';
+}
+.Courier {
+    font-family: Courier;
+}
