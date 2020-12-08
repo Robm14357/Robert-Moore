@@ -26,6 +26,7 @@ html {
 }
 body {
    color: rgb(91, 91, 91);
+   background-color: ivory;
 }
 body > footer {
    background-color: rgb(222, 128, 60);
@@ -60,19 +61,45 @@ article.coach_bio h2 {
 aside blockquote {
    font-size: 0.95em;
    font-family: "comic sans ms", cursive;
-   color: rgb(222, 128, 60) rgba(255, 255, 255, 0.75);
+   color: rgba(255, 255, 255, 0.75);
    padding: 10px;
+   background-color: rgb(222, 128, 60);;
 }
-
-
-
+blockquote::before {
+   font-size: 1.6em;
+   font-family: 'Times New Roman', Times, serif;
+}
+blockquote::after {
+   font-size: 1.6em;
+   font-family: 'Times New Roman', Times, serif;
+}
 /* Navigation Styles */	
-
-
-
-
+body > nav {
+   font-size: 0.8em;
+   line-height: 2em;
+}
+nav > ul {
+   list-style: none;
+   padding-left: 5px;  
+}
+nav > ul > li a {
+   text-decoration: none;
+   color: rgb(151, 151, 151);
+}
+nav > ul > li a:visited {
+   text-decoration: none;
+   color: rgb(151, 151, 151);
+}
+nav > ul > li a:hover {
+   text-decoration: underline;
+   color: rgb(222, 128, 60);
+}
 /* Paragraph Styles */
-
+p {
+   margin-top: 10px;
+   margin-right: 30px;
+   margin-left: 0px;
+}
 
 
 /* List Styles */
